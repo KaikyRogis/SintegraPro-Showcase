@@ -1,35 +1,77 @@
 ﻿# SintegraPro Showcase
 
-SintegraPro é um sistema desktop desenvolvido para processamento, correção e validação de arquivos fiscais, com foco em confiabilidade operacional, produtividade interna e experiência guiada para ambientes em modo Servidor e Estação.
+![Social preview](./assets/imagens/social-preview.png)
 
-Este repositório contém apenas a vitrine técnica e visual do projeto.
-O código-fonte completo, regras de negócio, integrações, artefatos operacionais e fluxos internos permanecem em repositório privado.
+SintegraPro é um sistema desktop para **processamento, correção e validação de arquivos fiscais**, com foco em operação Windows, confiabilidade operacional e fluxo guiado para ambientes em **modo Servidor** e **modo Estação**.
 
-## O que este repositório mostra
-
-- visão geral do produto
-- funcionalidades principais
-- arquitetura em alto nível
-- fluxo das telas
-- stack tecnológica
-- materiais visuais de apresentação
+Este repositório contém apenas a **vitrine técnica e visual** do projeto.  
+O código-fonte completo, regras de negócio, integrações, scripts operacionais e artefatos internos permanecem em repositório privado.
 
 ## Visão geral
 
-O produto foi desenhado para operação Windows em rede local, com dois papéis de máquina:
+O produto foi desenhado para operação em rede local com dois papéis distintos:
 
-- **Servidor**: hospeda API local, PostgreSQL, backup, restore e publicação de updates
-- **Estação**: processa arquivos localmente, sincroniza histórico com o servidor e recebe updates publicados
+- **Servidor**: hospeda API local, PostgreSQL, backup, restore e publicação de updates.
+- **Estação**: processa arquivos localmente, sincroniza histórico com o servidor e recebe updates publicados.
 
-## Principais capacidades
+## O que o sistema entrega
 
 - processamento local de arquivos SINTEGRA
 - correção e validação assistida
-- histórico operacional
+- histórico operacional com filtros e rastreabilidade
 - configuração guiada por papel da máquina
 - backup e restauração
 - update distribuído em rede local
 - instalador, updater e desinstalador visuais
+
+## Galeria do produto
+
+> Todas as imagens abaixo foram **sanitizadas ou reconstruídas para showcase**. Nenhuma mídia pública expõe dados reais de cliente, login, histórico operacional ou credenciais.
+
+### Login
+
+![Tela de login](./assets/imagens/acesso-login.png)
+
+### Dashboard
+
+![Dashboard](./assets/imagens/dashboard-overview.png)
+
+### Processamento SINTEGRA
+
+![Processamento SINTEGRA](./assets/imagens/processar-sintegra.png)
+
+### Histórico operacional
+
+![Histórico operacional](./assets/imagens/historico-operacional.png)
+
+### Configurações da estação
+
+![Configurações da estação](./assets/imagens/configuracao-estacao.png)
+
+### Ajuda contextual
+
+![Ajuda contextual](./assets/imagens/ajuda-operacional.png)
+
+## Demonstrações rápidas
+
+### Fluxo principal
+
+![Fluxo principal](./assets/gifs/fluxo-principal.gif)
+
+### Configuração e ajuda
+
+![Configuração e ajuda](./assets/gifs/configuracao-e-ajuda.gif)
+
+### Vídeo curto
+
+- [Assistir demo em MP4](./assets/video-demo/sintegrapro-showcase.mp4)
+
+## Arquitetura e documentação
+
+- [Arquitetura](./docs/arquitetura.md)
+- [Funcionalidades](./docs/funcionalidades.md)
+- [Fluxo de telas](./docs/fluxo-de-telas.md)
+- [Stack tecnológica](./docs/stack-tecnologica.md)
 
 ## Estrutura deste repositório
 
@@ -49,22 +91,6 @@ SintegraPro-Showcase/
    └─ layout-estatico/
 ```
 
-## Documentação
-
-- [Arquitetura](./docs/arquitetura.md)
-- [Funcionalidades](./docs/funcionalidades.md)
-- [Fluxo de telas](./docs/fluxo-de-telas.md)
-- [Stack tecnológica](./docs/stack-tecnologica.md)
-
-## Materiais visuais
-
-Use estas pastas para publicar a apresentação visual do projeto:
-
-- `assets/imagens/`
-- `assets/gifs/`
-- `assets/video-demo/`
-- `mock/layout-estatico/`
-
 ## Segurança e escopo
 
 Este repositório **não** inclui:
@@ -78,6 +104,6 @@ Este repositório **não** inclui:
 
 ## Status
 
-- produto em evolução contínua
-- repositório público com foco em apresentação técnica e portfólio
+- projeto em evolução contínua
+- repositório público focado em apresentação técnica e portfólio
 - implementação real mantida em repositório privado
