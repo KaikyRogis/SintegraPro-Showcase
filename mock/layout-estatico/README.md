@@ -1,3 +1,5 @@
-﻿# Layout estático
+﻿# Layout Estático
 
-Use esta pasta para colocar mockups, capturas estáticas e referências visuais do produto para a vitrine pública.
+Esta pasta fica reservada para referências visuais complementares do projeto.
+
+O showcase público atual prioriza capturas reais do sistema, sanitizadas para remover dados sensíveis antes da publicação.

@@ -26,7 +26,7 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 
 ## Galeria do produto
 
-> Todas as imagens abaixo foram **sanitizadas ou reconstruídas para showcase**. Nenhuma mídia pública expõe dados reais de cliente, login, histórico operacional ou credenciais.
+> Todas as imagens abaixo são **capturas reais do sistema**, sanitizadas com desfoque nos pontos que não podem ser expostos publicamente.
 
 ### Login
 
@@ -101,6 +101,7 @@ Este repositório **não** inclui:
 - banco de dados e migrations reais
 - instaladores operacionais
 - credenciais, chaves, tokens ou configurações sensíveis
+- histórico real de clientes ou dados operacionais identificáveis
 
 ## Status
 
