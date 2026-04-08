@@ -1,6 +1,4 @@
-﻿# SintegraPro Showcase
-
-![Social preview](./assets/imagens/social-preview.png)
+# SintegraPro Showcase
 
 SintegraPro é um sistema desktop para **processamento, correção e validação de arquivos fiscais**, com foco em operação Windows, confiabilidade operacional e fluxo guiado para ambientes em **modo Servidor** e **modo Estação**.
 
@@ -26,7 +24,8 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 
 ## Galeria do produto
 
-> Todas as imagens abaixo são **capturas reais do sistema**, sanitizadas com desfoque nos pontos que não podem ser expostos publicamente.
+> Todas as imagens abaixo são **capturas reais do sistema**.  
+> Os prints foram editados somente com blur pontual nos trechos que não podem ser expostos publicamente.
 
 ### Login
 
@@ -44,27 +43,25 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 
 ![Histórico operacional](./assets/imagens/historico-operacional.png)
 
-### Configurações da estação
+### Configuração da estação
 
-![Configurações da estação](./assets/imagens/configuracao-estacao.png)
+![Configuração da estação](./assets/imagens/configuracao-estacao.png)
 
-### Ajuda contextual
+### Configuração do sistema
 
-![Ajuda contextual](./assets/imagens/ajuda-operacional.png)
+![Configuração do sistema](./assets/imagens/configuracao-sistema.png)
 
-## Demonstrações rápidas
+### Backup e atualizações do servidor
 
-### Fluxo principal
+![Backup e atualizações do servidor](./assets/imagens/backup-atualizacoes-servidor.png)
 
-![Fluxo principal](./assets/gifs/fluxo-principal.gif)
+### Ajuda: guia rápido
 
-### Configuração e ajuda
+![Ajuda - guia rápido](./assets/imagens/ajuda-guia-rapido.png)
 
-![Configuração e ajuda](./assets/gifs/configuracao-e-ajuda.gif)
+### Ajuda: FAQ
 
-### Vídeo curto
-
-- [Assistir demo em MP4](./assets/video-demo/sintegrapro-showcase.mp4)
+![Ajuda - FAQ](./assets/imagens/ajuda-faq.png)
 
 ## Arquitetura e documentação
 
@@ -79,16 +76,12 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 SintegraPro-Showcase/
 ├─ README.md
 ├─ assets/
-│  ├─ imagens/
-│  ├─ gifs/
-│  └─ video-demo/
+│  └─ imagens/
 ├─ docs/
 │  ├─ arquitetura.md
 │  ├─ funcionalidades.md
 │  ├─ fluxo-de-telas.md
 │  └─ stack-tecnologica.md
-└─ mock/
-   └─ layout-estatico/
 ```
 
 ## Segurança e escopo
