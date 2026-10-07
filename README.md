@@ -15,6 +15,8 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 ## O que o sistema entrega
 
 - processamento local de arquivos SINTEGRA
+- processamento assistido de SPED Fiscal com conferência por XML CT-e
+- processamento de SPED Contribuições em QA controlado, com análise fiscal prévia e bloqueio quando faltam evidências documentais
 - correção e validação assistida
 - histórico operacional com filtros e rastreabilidade
 - configuração guiada por papel da máquina
@@ -26,6 +28,7 @@ O produto foi desenhado para operação em rede local com dois papéis distintos
 
 > Todas as imagens abaixo são **capturas reais do sistema**.  
 > Os prints foram editados somente com blur pontual nos trechos que não podem ser expostos publicamente.
+> A galeria registra telas de uma versão anterior; a interface atual também inclui SPED Fiscal e SPED Contribuições. Não são exibidos aqui dados fiscais de clientes.
 
 ### Login
 
@@ -99,5 +102,6 @@ Este repositório **não** inclui:
 ## Status
 
 - projeto em evolução contínua
+- SINTEGRA e SPED Fiscal operacionais; SPED Contribuições em homologação controlada; Gestor Fiscal temporariamente indisponível
 - repositório público focado em apresentação técnica e portfólio
 - implementação real mantida em repositório privado

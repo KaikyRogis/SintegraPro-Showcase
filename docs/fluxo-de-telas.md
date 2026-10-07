@@ -5,9 +5,11 @@
 1. Login do usuário
 2. Dashboard inicial
 3. Processamento de arquivo SINTEGRA
-4. Visualização de histórico
-5. Configurações da máquina
-6. Backup, restore, update e diagnóstico conforme o papel
+4. SPED Fiscal: selecionar TXT e XML CT-e, processar e validar o arquivo de saída
+5. SPED Contribuições (QA): selecionar Contribuições, Fiscal e XML CT-e; analisar; fornecer NF-e/NFC-e se houver bloqueio documental; analisar de novo; gerar TXT; validar no PGE
+6. Visualização de histórico
+7. Configurações da máquina, inclusive reset após sucesso
+8. Backup, restore, update e diagnóstico conforme o papel
 
 ## Fluxos auxiliares
 
